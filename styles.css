@@ -1,0 +1,108 @@
+/*setting margin, font size, and background color*/
+header,
+main,
+footer {
+	background-color: #383985;
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*setting margin, font size, and background image*/
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-image: url('images/flag.jpg');
+	font-size: 65%;
+}
+/*make captions to photos italic*/
+figcaption {
+	font-style: italic;
+}
+
+/*class to center and make text white*/
+.makeWhiteCenter {
+    color:white;
+    text-align: center;
+    
+}
+figure {
+	margin: 0;
+	padding: 10px 20px;
+    text-align: center;
+    border-style: groove;
+}
+header {
+    padding: 10px 20px;
+}
+
+
+/*class to center images*/
+.centerImg {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+/*what happens to the colors of links when they are clicked*/
+a:link{
+	color: rgb(255, 255, 255);
+}   
+a:visited{
+	color: rgb(255, 255, 255);
+}
+a:hover{
+	color: yellow;
+}
+a:active{
+	color: brown;
+}
+
+/*aligns numbered list correctly*/
+.center
+{
+ text-align: center;
+ list-style-position: inside;
+}
+ol.center li
+{
+ text-align: left;
+ margin-left: 20%;
+}
+/*makes red text*/
+#red-text {
+    color: #b90505;
+}
+#center-line{
+    text-align: center;
+}
+
+section {
+    margin: 1.875em 0;
+    padding: 10px 20px;;
+}
+footer {
+    align-items: center;
+    margin: 1.875em 0;
+    padding: 20px 20px;
+    
+}
+.button {
+    
+    background-color: #b90505; 
+    border: double;
+    margin: 0 auto;
+    width: 70%;
+    margin-left: 11%;
+    margin-right: 11%;
+      
+    color: white;
+        padding: 15px 32px;
+        text-align: center;
+    
+    
+    text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+  
+}
+
